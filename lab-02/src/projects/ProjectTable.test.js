@@ -19,4 +19,7 @@ describe('<ProjectTable />', () => {
     it('should render a row for each project', () => {
         expect(wrapper.find(ProjectRow)).toHaveLength(2);
     });
+    it('should render to match the snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 });

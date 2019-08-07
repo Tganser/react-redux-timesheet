@@ -21,4 +21,7 @@ describe('<Projects />', () => {
         });
         expect(wrapper.find(ProjectTable).prop('projects')).toHaveLength(4);
     });
+    it('should render to match the snapshot', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 });

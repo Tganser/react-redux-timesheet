@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProjectTable /> should render to match the snapshot 1`] = `
+<Table
+  bordered={true}
+  bsClass="table"
+  condensed={false}
+  hover={false}
+  responsive={false}
+  striped={true}
+>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <ProjectRow
+      key="1"
+      project={
+        Object {
+          "_id": 1,
+        }
+      }
+    />
+    <ProjectRow
+      key="2"
+      project={
+        Object {
+          "_id": 2,
+        }
+      }
+    />
+  </tbody>
+</Table>
+`;

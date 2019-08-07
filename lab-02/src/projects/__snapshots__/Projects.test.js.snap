@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Projects /> should render to match the snapshot 1`] = `
+<div>
+  <h1>
+    Projects
+  </h1>
+  <ProjectTable
+    projects={
+      Array [
+        Object {
+          "_id": 1,
+          "description": "This is your first project",
+          "name": "Project1",
+        },
+        Object {
+          "_id": 2,
+          "description": "This is your second project",
+          "name": "Project2",
+        },
+        Object {
+          "_id": 3,
+          "description": "This is the third project",
+          "name": "Project3",
+        },
+      ]
+    }
+  />
+</div>
+`;
